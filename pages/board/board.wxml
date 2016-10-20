@@ -6,7 +6,7 @@
   <view class="body">
     <scroll-view scroll-y="true" height="100%">
       <block wx:for="{{boards}}">
-        <navigator url="../list/list?type={{item.key}}&title={{item.name}}">
+        <navigator url="../lists/lists?type={{item.key}}&title={{item.name}}">
           <view class="item">
             <view class="item-info">
               <text class="item-name">{{item.name}}</text>

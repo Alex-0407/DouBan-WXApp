@@ -10,7 +10,13 @@ App({
       data:{},
       header:{'Content-Type':'application/json'},
       success(res) {
+        if(res.statusCode != 200) {
+          var err = Error("fail")
+          callback(err, null)
+        }
+        else {
         callback(null, res.data)
+        }
       },
       fail(e) {
         console.error(e)

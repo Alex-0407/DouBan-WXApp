@@ -1,7 +1,9 @@
 {
   "pages": [
+    "pages/board/board",
     "pages/splash/splash",
-    "pages/board/board"
+    "pages/lists/lists",
+    "pages/item/item"
   ],
   "window": {
     "navigationBarBackgroundColor": "#35495e",
@@ -16,6 +18,7 @@
     "selectedColor": "#35495e",
     "borderStyle": "white",
     "backgroundColor": "#f9f9f9",
+    "selectedPath": "pages/board/board",
     "list": [
       {
         "text": "榜单",

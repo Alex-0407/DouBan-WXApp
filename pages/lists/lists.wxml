@@ -1,0 +1,28 @@
+<view class="contain">
+    <view class="title-" wx:if="{{!loading}}" >
+        <text class="title-text">{{list.title}}</text>
+    </view>
+
+    <view class="content">
+        <block wx:for="{{list.subjects}}">
+            <navigator url="../item/item?id={{item.id}}">
+                <view class="item">
+                    <image class="poster" src="{{item.images.small}}"></image>
+                    <view class="meta">
+                        <text class="title">{{item.title}}</text>
+                        <text class="sub-title">{{item.original_title}}({{item.year}})</text>
+                        <view class="artists">
+                            <text wx:for="{{item.directors}}">{{item.name}} </text>
+                        </view>
+                    </view>
+
+                    <view class="rating">
+                        <text>{{item.rating.average}}</text>
+                    </view>
+                </view>
+            </navigator>
+        </block>
+    </view>
+    
+</view>
+

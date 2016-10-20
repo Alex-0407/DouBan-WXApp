@@ -25,8 +25,6 @@ Page({
     // 页面关闭
   },
   btntap:function() {
-    wx.redirectTo ({
-      url:"../board/board"
-    })
+    wx.navigateBack()
   }
 })

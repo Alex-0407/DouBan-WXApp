@@ -4,6 +4,7 @@
     "selectedColor": "#35495e",
     "borderStyle": "white",
     "backgroundColor": "#f9f9f9",
+    "selectedPath": "pages/board/board",
     "list": [
       {
         "text": "榜单",
