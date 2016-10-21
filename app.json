@@ -3,7 +3,8 @@
     "pages/board/board",
     "pages/splash/splash",
     "pages/lists/lists",
-    "pages/item/item"
+    "pages/item/item",
+    "pages/search/search"
   ],
   "window": {
     "navigationBarBackgroundColor": "#35495e",
